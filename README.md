@@ -1,9 +1,3 @@
-**Here’s a strong, professional README.md** for your project.
-
-Copy everything below and save it as `README.md`.
-
----
-
 ```markdown
 # Predicting Executive Function Decline
 
