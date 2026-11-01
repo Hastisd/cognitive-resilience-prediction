@@ -1,3 +1,10 @@
+**Here’s a strong, professional README.md** for your project.
+
+Copy everything below and save it as `README.md`.
+
+---
+
+```markdown
 # Predicting Executive Function Decline
 
 **A rigorous clinical prediction modeling pipeline** following best practices from *Machine Learning in Clinical Neuroscience* (Staartjes et al., 2022)
@@ -55,3 +62,46 @@ All models were evaluated using **5-fold nested cross-validation**.
 ---
 
 ## Project Structure
+
+```
+cognitive-resilience-prediction/
+├── data/
+│   └── generate_simulated_data.py
+├── src/
+│   ├── preprocessing.py
+│   ├── models.py
+│   ├── evaluation.py
+│   └── pipeline.py
+├── results/
+│   ├── figures/
+│   └── tables/
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## How to Run
+
+```bash
+# 1. Generate data
+python data/generate_simulated_data.py
+
+# 2. Run the full pipeline
+python src/pipeline.py
+```
+
+---
+
+## Author
+
+**Hasti Sadati**  
+M.Sc. Student in Ergonomics  
+
+
+---
+
+## Reference
+
+Staartjes, V. E., Regli, L., & Serra, C. (Eds.). (2022). *Machine Learning in Clinical Neuroscience: Foundations and Applications*. Springer.
+```
